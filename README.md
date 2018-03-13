@@ -33,8 +33,7 @@ function main() {
 ```
 # sample code
 ## token Generation
-```
-ruby
+``` ruby
 token();
 
 function token() {
