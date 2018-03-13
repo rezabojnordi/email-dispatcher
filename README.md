@@ -31,8 +31,8 @@ function main() {
 }
 
 ```
-#sample code
-##token Generation
+# sample code
+## token Generation
 ```
 ruby
 token();
