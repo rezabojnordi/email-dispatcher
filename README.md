@@ -3,7 +3,7 @@
 You can use this program to send email and generate tokens in your project
 
 # sample code
-
+``` ruby
 main();
 /**
  * This function is used to send email
@@ -29,3 +29,4 @@ function main() {
     }
 }
 
+```
