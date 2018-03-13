@@ -3,6 +3,7 @@
 You can use this program to send email and generate tokens in your project
 
 # sample code
+## send email
 ``` ruby
 main();
 /**
@@ -30,3 +31,12 @@ function main() {
 }
 
 ```
+#sample code
+##token Generation
+```
+ruby
+token();
+
+function token() {
+    console.log('token', email.tokenGeneration(32, '25bgfd566s58e2d21sd121s2sd2d3s3d23'))
+}
