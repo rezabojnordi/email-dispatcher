@@ -1,0 +1,34 @@
+{
+  "name": "email-dispatcher",
+  "version": "1.0.0",
+  "description": "You can use this program to send email and generate tokens in your project",
+  "main": "email-dispatcher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "reza bojnordi",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^4.6.2",
+    "q": "^1.5.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rezabojnordi/email-dispatcher.git"
+  },
+  "keywords": [
+    "email",
+    "generate",
+    "token",
+    "send",
+    "email",
+    "mail",
+    "gmail",
+    "project"
+  ],
+  "bugs": {
+    "url": "https://github.com/rezabojnordi/email-dispatcher/issues"
+  },
+  "homepage": "https://github.com/rezabojnordi/email-dispatcher#readme"
+}
