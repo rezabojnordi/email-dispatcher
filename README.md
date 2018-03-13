@@ -5,6 +5,8 @@ You can use this program to send email and generate tokens in your project
 # sample code
 ## send email
 ``` ruby
+var email = require('./email-dispatcher');
+
 main();
 /**
  * This function is used to send email
@@ -34,8 +36,10 @@ function main() {
 # sample code
 ## token Generation
 ``` ruby
+var email = require('./email-dispatcher');
 token();
 
 function token() {
-    console.log('token', email.tokenGeneration(32, '25bgfd566s58e2d21sd121s2sd2d3s3d23'))
+    var token = email.tokenGeneration(32, '25bgfd566s58e2d21sd121s2sd2d3s3d23');
+    console.log('token', token)
 }
